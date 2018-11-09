@@ -1,0 +1,20 @@
+.large-image {
+	width: 70%;
+	height: 70%;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.medium-image {
+	width: 40%;
+	height: 40%;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.small-image {
+	width: 30%;
+	height: 30%;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
