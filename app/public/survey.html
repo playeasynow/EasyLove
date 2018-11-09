@@ -8,7 +8,7 @@
 	 crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
 	 crossorigin="anonymous">
-	 <link rel="stylesheet" href="./assets/styles.css">
+	<link rel="stylesheet" href="./assets/styles.css">
 </head>
 
 <body>
@@ -25,7 +25,7 @@
 				<!-- <a href="/tables"><button class="btn btn-lg btn-primary"><span class="fa fa-list-alt"></span> View
                         Entries</button></a> -->
 				<a href="/"><button class="btn btn-lg btn-default"><span class="fa fa-home"></span></button></a>
-				<a href="/about"><button class="btn btn-lg btn-danger"> About</button></a>
+				<!-- <a href="/about"><button class="btn btn-lg btn-danger"> About</button></a> -->
 			</div>
 		</div>
 
@@ -35,15 +35,24 @@
 				<!-- Reservation Page -->
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<h4 class="panel-title">Memes brought to you by @notallgeminis</h4>
+						<h1 class="panel-title mb-3">Memes brought to you by @notallgeminis</h2>
 					</div>
 					<div class="panel-body p">
-
+						<h3>First, we'd like to have your name and a link to a photo of you! (LinkedIn, FB, Instagram, etc.)</h3>
 						<form role="form">
+
+							<div class="row">
+								<div class="col">
+									<input type="text" class="form-control" placeholder="First name" id="lover-name">
+								</div>
+								<div class="col">
+									<input type="url" class="form-control" placeholder="Photo URL!" id="lover-photo">
+								</div>
+							</div>
 							<!-- #1 -->
 							<img class="large-image" src="./assets/images/rihanna.png"><br>
 							<label for="customRange2">Disagree --> Agree</label>
-							<input type="range" class="custom-range" min="0" max="5" id="customRange2">
+							<input type="range" class="custom-range" min="0" max="5" id="customRange1">
 
 							<!-- #2 -->
 							<img class="large-image" src="./assets/images/signsRobots.png"><br>
@@ -54,40 +63,41 @@
 							<img class="medium-image" src="./assets/images/fireUmbrella.png">
 							<img class="medium-image" src="./assets/images/waterUmbrella.png"><br>
 							<label for="customRange2">Disagree --> Agree</label>
-							<input type="range" class="custom-range" min="0" max="5" id="customRange2">
+							<input type="range" class="custom-range" min="0" max="5" id="customRange3">
 
 							<!-- #4 -->
 							<img class="large-image" src="./assets/images/complimentBadDay.png"><br>
 							<label for="customRange2">Disagree --> Agree</label>
-							<input type="range" class="custom-range" min="0" max="5" id="customRange2">
+							<input type="range" class="custom-range" min="0" max="5" id="customRange4">
 
 							<!-- #5 -->
 							<img class="large-image" src="./assets/images/stressEating.png"><br>
 							<label for="customRange2">Disagree --> Agree</label>
-							<input type="range" class="custom-range" min="0" max="5" id="customRange2">
+							<input type="range" class="custom-range" min="0" max="5" id="customRange5">
 
 							<!-- #6 -->
 							<img class="large-image" src="./assets/images/lovesTooMuch.png"><br>
 							<label for="customRange2">Disagree --> Agree</label>
-							<input type="range" class="custom-range" min="0" max="5" id="customRange2">
+							<input type="range" class="custom-range" min="0" max="5" id="customRange6">
 
 							<!-- #7 -->
 							<img class="medium-image" src="./assets/images/notTea.png">
 							<img class="medium-image" src="./assets/images/overanalyzing.png"><br>
 							<label for="customRange2">Disagree --> Agree</label>
-							<input type="range" class="custom-range" min="0" max="5" id="customRange2">
+							<input type="range" class="custom-range" min="0" max="5" id="customRange7">
 
 							<!-- #8 -->
-							<img class="large-image" src="./assets/images/crucifying.png">
+							<img class="large-image" src="./assets/images/crucifying.png"><br>
 							<label for="customRange2">Disagree --> Agree</label>
-							<input type="range" class="custom-range" min="0" max="5" id="customRange2">
+							<input type="range" class="custom-range" min="0" max="5" id="customRange8">
 
 							<!-- #9 -->
-							<img class="large-image" src="./assets/images/notRetrograde.png">
+							<img class="large-image" src="./assets/images/notRetrograde.png"><br>
 							<label for="customRange2">Disagree --> Agree</label>
-							<input type="range" class="custom-range" min="0" max="5" id="customRange2">
+							<input type="range" class="custom-range" min="0" max="5" id="customRange9">
 
 							<!-- #10 -->
+							<h2 class="mt-5">Find your sign below!!</h2>
 							<img class="small-image" src="./assets/images/sagMuch.png">
 							<img class="small-image" src="./assets/images/cancerMuch.png">
 							<img class="small-image" src="./assets/images/geminiMuch.png"><br>
@@ -100,9 +110,9 @@
 							<img class="small-image" src="./assets/images/scorpioMuch.png">
 							<img class="small-image" src="./assets/images/leoMuch.png">
 							<img class="small-image" src="./assets/images/virgoMuch.png"><br>
-							
+
 							<label for="customRange2">Disagree --> Agree</label>
-							<input type="range" class="custom-range" min="0" max="5" id="customRange2">
+							<input type="range" class="custom-range" min="0" max="5" id="customRange10">
 
 							<button type="submit" class="btn btn-primary submit">Submit</button>
 						</form>
@@ -118,35 +128,13 @@
 			<div class="modal-dialog modal-lg" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">Get ready to eat!</h5>
+						<h5 class="modal-title" id="exampleModalLabel">We have a match!</h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
 						</button>
 					</div>
 					<div class="modal-body">
-						Your table is ready.
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<!-- Modal -->
-		<div class="modal fade" id="bookedModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-lg" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">Sorry!</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="modal-body">
-						Your table is now on the waitlist.
+						Your match is: 
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -158,7 +146,7 @@
 
 		<footer class="footer">
 			<div class="container">
-				<p><a href="/api/tables">API Table Link</a> | <a href="/api/waitlist">API Wait List</a>
+				<p><a href="/api/lovers">API Table Link</a>
 			</div>
 		</footer>
 
@@ -182,21 +170,31 @@
 		event.preventDefault();
 
 		// Here we grab the form elements
-		var newReservation = {
-			name: $("#reserve-name").val().trim(),
-			phoneNum: $("#reserve-phone").val().trim(),
-			email: $("#reserve-email").val().trim(),
-			id: $("#reserve-unique-id").val().trim()
+		var newLover = {
+			name: $("#lover-name").val().trim(),
+			photo: $("#lover-photo").val().trim(),
+			scores: [
+				$("#customRange1").val().trim(),
+				$("#customRange2").val().trim(),
+				$("#customRange3").val().trim(),
+				$("#customRange4").val().trim(),
+				$("#customRange5").val().trim(),
+				$("#customRange6").val().trim(),
+				$("#customRange7").val().trim(),
+				$("#customRange8").val().trim(),
+				$("#customRange9").val().trim(),
+				$("#customRange10").val().trim()
+			]
 		};
 
-		console.log(newReservation);
+		console.log(newLover);
 
 		// This line is the magic. It"s very similar to the standard ajax function we used.
 		// Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
 		// The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
 		// depending on if a tables is available or not.
 
-		$.post("/api/tables", newReservation,
+		$.post("/api/lovers", newLover,
 			function (data) {
 				// If a table is available... tell user they are booked.
 				if (data.response) {
@@ -204,16 +202,29 @@
 					$('#successModal').modal('show')
 				}
 				// If a table is available... tell user they on the waiting list.
-				else {
-					// alert("Sorry you are on the wait list");
-					$('#bookedModal').modal('show')
-				}
+				// else {
+				// 	// alert("Sorry you are on the wait list");
+				// 	$('#bookedModal').modal('show')
+				// }
 
 				// Clear the form when submitting
-				$("#reserve-name").val("");
-				$("#reserve-phone").val("");
-				$("#reserve-email").val("");
-				$("#reserve-unique-id").val("");
+				// $("#reserve-name").val("");
+				// $("#reserve-phone").val("");
+				// $("#reserve-email").val("");
+				// $("#reserve-unique-id").val("");
+
+				$("#lover-name").val("");
+				$("#lover-photo").val("");
+				$("#customRange1").val("");
+				$("#customRange2").val("");
+				$("#customRange3").val("");
+				$("#customRange4").val("");
+				$("#customRange5").val("");
+				$("#customRange6").val("");
+				$("#customRange7").val("");
+				$("#customRange8").val("");
+				$("#customRange9").val("");
+				$("#customRange10").val("");
 
 			});
 

@@ -1,4 +1,4 @@
-const lovers = require('./../data/lovers');
+const lovers = require('../data/lovers');
 // const waitlist = require('./../data/waitlist');
 
 module.exports = function (app) {
