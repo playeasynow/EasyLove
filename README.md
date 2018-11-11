@@ -9,7 +9,7 @@ Build a matching service using Express! My idea came from my adoration of the @n
 # User Guide
 <a href="https://drive.google.com/file/d/1L6n4PgLdLB94fLTnuV3eV5MgKj8tkmRF/view
 " target="_blank"><img src="./app/public/assets/images/rihanna.png" 
-alt="rihanna meme" width="300" height="180" border="10" /></a>
+alt="rihanna meme" width="300" height="250" border="10" /></a>
 
 Here's how it works:
 
